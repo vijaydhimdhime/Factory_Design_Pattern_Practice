@@ -17,15 +17,15 @@ public class MainClass {
 //		
 		///Mobile_Factory creating automating object at runtime
 		
-		Mobile apple = Mobile_Factory.getMobile("Apple_iphone15");
+		Mobile apple = Mobile_Factory.getMobile("apple_iphone15");
 		int price = apple.price();
 		System.out.println("price: "+price);
 		System.out.println("======================================");
-		Mobile samsung = Mobile_Factory.getMobile("Samsung_J7");
+		Mobile samsung = Mobile_Factory.getMobile("samsung_J7");
 		int price2 = samsung.price();
 		System.out.println("price : "+price2);
 		System.out.println("======================================");
-		Mobile sony = Mobile_Factory.getMobile("Sony_Xperia10");
+		Mobile sony = Mobile_Factory.getMobile("sony_xperia10");
 		int price3 = sony.price();
 		System.out.println("price : "+price3);
 		
